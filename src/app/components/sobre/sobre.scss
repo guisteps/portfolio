@@ -1,0 +1,57 @@
+.main {
+    height: 100vh;
+    background: linear-gradient(to right, #076ff7, #f71297);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+
+    span {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        letter-spacing: 2px;
+        font-size: 1.6rem;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+.body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-img {
+    display: flex;
+    justify-content: center;
+
+    width: 50%;
+    img {
+        height: 25%;
+    }
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+
+    button {
+        margin-top: 8px;
+        width: 45%;
+    }
+}
+
+.button {
+    cursor: pointer;
+    height: fit-content;
+    padding: 1.2rem 1.6rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+}

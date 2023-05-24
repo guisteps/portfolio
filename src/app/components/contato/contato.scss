@@ -1,0 +1,48 @@
+.main {
+    height: 100vh;
+    //background: linear-gradient(to right, #076ff7, #f71297);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+
+    span {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        letter-spacing: 2px;
+        font-size: 1.6rem;
+       // color: white;
+        font-weight: bold;
+    }
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px black solid;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.button {
+    cursor: pointer;
+    height: fit-content;
+    padding: 1rem 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+    font-size: 1rem;
+    border: 2px solid black;
+    background-color: transparent;
+}

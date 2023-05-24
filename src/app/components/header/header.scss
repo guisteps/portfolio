@@ -1,0 +1,24 @@
+.main {
+    position: fixed;
+    top: 30%;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 4px;
+    background-color: black;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    button {
+        margin: 16px 0px;
+        background-color: transparent;
+        color: white;
+        border: none;
+        //border-bottom: 1px solid white;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+}

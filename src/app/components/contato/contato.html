@@ -1,0 +1,35 @@
+<div class="main">
+    <div class="title">
+        <span>CONTATO</span>
+    </div>
+
+    <div class="body">
+
+        <form [formGroup]="form" (ngSubmit)="enviar()" class="card">
+            <mat-form-field>
+                <mat-label>Nome</mat-label>
+                <input matInput formControlName="nome">
+                <mat-error *ngIf="form.get('nome')?.invalid">
+                    Nome é <strong>obrigatório</strong>
+                </mat-error>
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>E-mail</mat-label>
+                <input matInput type="email" formControlName="email">
+                <mat-error *ngIf="form.get('email')?.invalid">
+                    <strong>Obrigatório</strong> um e-mail válido
+                </mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+                <mat-label>Mensagem</mat-label>
+                <textarea matInput formControlName="msg"></textarea>
+            </mat-form-field>
+
+            <br />
+            <button type="submit" class="button">Enviar</button>
+        </form>
+
+    </div>
+</div>

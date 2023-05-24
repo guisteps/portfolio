@@ -1,0 +1,55 @@
+.main {
+    height: 100vh;
+    padding: 0px 0px 8px 8rem;
+}
+
+.frase {
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        line-height: 1.2;
+        margin-top: -32px;
+    }
+}
+
+.knowme {
+    display: flex;
+    flex-direction: row;
+    margin-top: -8px;
+}
+
+.knowme-frase {
+    margin-top: 8px;
+}
+
+.rede-btn {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: cover;
+    margin: 8px 8px 0px 8px;
+}
+.github-btn {
+    @extend .rede-btn;
+    background-image: url("../../../assets/images/github.png");
+}
+.linkedin-btn {
+    @extend .rede-btn;
+    background-image: url("../../../assets/images/linkedin.png");
+}
+.twitter-btn {
+    @extend .rede-btn;
+    background-image: url("../../../assets/images/twitter.png");
+}
+.instagram-btn {
+    @extend .rede-btn;
+    background-image: url("../../../assets/images/instagram.png");
+}
+
+.nome {
+    background: linear-gradient(to right, #076ff7, #f71297);
+    -webkit-background-clip: text;
+    color: transparent;
+}
