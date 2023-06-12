@@ -11,7 +11,64 @@
         margin-bottom: 4rem;
         letter-spacing: 2px;
         font-size: 1.6rem;
-        color: black;
+        color: white;
         font-weight: bold;
     }
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 16px;
+    padding: 16px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 60%;
+
+    .div-name {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        span {
+            height: fit-content;
+        }
+    }
+
+    .div-description {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-btn {
+        margin-top: 8px;
+        span {
+            margin-top: 10px;
+            margin-left: 24px;
+        }
+    }
+}
+
+.button {
+    cursor: pointer;
+    padding: 0.5rem 0.5rem;
+    text-wrap: nowrap;
+    color: white;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+}
+
+.button:hover {
+    color: #6b48cf;
+    border: 2px solid #6b48cf;
+    background-color: white;
 }

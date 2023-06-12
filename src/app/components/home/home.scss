@@ -17,11 +17,6 @@
 .knowme {
     display: flex;
     flex-direction: row;
-    margin-top: -8px;
-}
-
-.knowme-frase {
-    margin-top: 8px;
 }
 
 .rede-btn {
@@ -29,7 +24,7 @@
     height: 30px;
     display: inline-block;
     background-size: cover;
-    margin: 8px 8px 0px 8px;
+    margin: 0px 16px 0px 0px;
 }
 .github-btn {
     @extend .rede-btn;
@@ -49,7 +44,8 @@
 }
 
 .nome {
-    background: linear-gradient(to right, #076ff7, #f71297);
+    //background: linear-gradient(to right, #076ff7, #f71297);
+    background: white;
     -webkit-background-clip: text;
     color: transparent;
 }

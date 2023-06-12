@@ -1,6 +1,5 @@
 .main {
     height: 100vh;
-    background: linear-gradient(to right, #076ff7, #f71297);
 }
 
 .title {
@@ -37,6 +36,7 @@
     flex-direction: column;
     width: 50%;
     color: white;
+    margin-right: 16px;
 
     button {
         margin-top: 8px;
@@ -54,4 +54,10 @@
     font-size: 1rem;
     border: 2px solid #ffffff;
     background-color: transparent;
+}
+
+.button:hover {
+    color: #8B3CC2;
+    border: 2px solid #8B3CC2;
+    background-color: white;
 }

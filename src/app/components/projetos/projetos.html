@@ -4,5 +4,21 @@
     </div>
 
     <div class="body">
+
+        <div class="card" *ngFor="let repo of ultimosRepos">
+            <div class="div-name">
+                <span>{{repo.name}}</span>
+            </div>
+            
+            <div class="div-description">
+                <span>{{repo.description}}</span>
+
+                <div class="div-btn">
+                    <button class="button" (click)="navegar(repo.html_url)">Código Fonte</button>
+                    <span>💻{{repo.language}}</span>
+                </div>
+            </div>
+           
+        </div>
     </div>
 </div>

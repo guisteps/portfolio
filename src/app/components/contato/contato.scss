@@ -1,6 +1,5 @@
 .main {
     height: 100vh;
-    //background: linear-gradient(to right, #076ff7, #f71297);
 }
 
 .title {
@@ -12,7 +11,7 @@
         margin-bottom: 4rem;
         letter-spacing: 2px;
         font-size: 1.6rem;
-       // color: white;
+        color: white;
         font-weight: bold;
     }
 }
@@ -30,10 +29,11 @@
     justify-content: center;
     align-items: center;
 
-    border: 2px black solid;
+    border: 2px white solid;
     border-radius: 16px;
     padding: 8px;
 }
+
 
 .button {
     cursor: pointer;
@@ -41,8 +41,46 @@
     padding: 1rem 1.2rem;
     font-weight: bold;
     letter-spacing: 2px;
-    color: black;
+    color: white;
     font-size: 1rem;
-    border: 2px solid black;
+    border: 2px solid white;
     background-color: transparent;
+}
+
+.button:hover {
+    color: #1f66ed;
+    border: 2px solid #1f66ed;
+    background-color: white;
+}
+
+
+.mat-form-field {
+    margin-bottom: 8px;
+}
+
+.lbl-white {
+    color: white;
+}
+
+.mat-input-element {
+    color: white;
+}
+
+::ng-deep .mat-form-field-required-marker {
+    color: white !important;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: white !important;
+}
+
+::ng-deep.mat-form-field-underline {
+    /*change color of underline*/
+    background-color: white !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+    /*change color of underline when focused*/
+    background-color: white !important;
 }
