@@ -19,7 +19,7 @@ export class ProjetosComponent implements OnDestroy {
 
     obRepos() {
         const sub = this.gitSrv.getRepos().subscribe(data => {
-            this.ultimosRepos = data.sort(this.compararDatas).splice(0, 4);
+            this.ultimosRepos = data.sort(this.compararDatas).splice(0, 5);
         });
         this.subscriptions.push(sub);
     }
